@@ -13,6 +13,8 @@ export const Container = styled.section`
         font-family: var(--ff-logo);
         font-weight: var(--fw-600);
         text-transform: uppercase;
+        text-shadow: 2px 0 blueviolet, -2px 0 blueviolet, 0 2px blueviolet, 0 -2px blueviolet,
+             1px 1px blueviolet, -1px -1px blueviolet, 1px -1px blueviolet, -1px 1px blueviolet;
         color: var(--cor-light);
     }
 
@@ -21,6 +23,8 @@ export const Container = styled.section`
         font-family: var(--ff-logo);
         font-weight: var(--fw-600);
         text-transform: uppercase;
+        text-shadow: 2px 0 blueviolet, -2px 0 blueviolet, 0 2px blueviolet, 0 -2px blueviolet,
+             1px 1px blueviolet, -1px -1px blueviolet, 1px -1px blueviolet, -1px 1px blueviolet;
         color: var(--cor-light);
     }
 `;

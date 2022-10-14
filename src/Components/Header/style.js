@@ -9,7 +9,7 @@ export const Container = styled.section`
     align-items: center;
     position: relative;
 
-    @media screen and (max-width:45em){
+    @media screen and (max-width:48em){
         padding: 1rem;
     }
 `;
@@ -28,6 +28,9 @@ export const LogoBox = styled.div`
         font-size: clamp(1rem, 1.5vw, 2rem);
         font-family: var(--ff-logo);
         font-weight: var(--fw-600);
+        text-shadow: 2px 0 blueviolet, -2px 0 blueviolet, 0 2px blueviolet, 0 -2px blueviolet,
+             1px 1px blueviolet, -1px -1px blueviolet, 1px -1px blueviolet, -1px 1px blueviolet;
+        text-transform: uppercase;
         color: var(--cor-light);
     }
 
