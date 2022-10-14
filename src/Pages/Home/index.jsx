@@ -4,7 +4,12 @@ import * as S from './style'
 export default function Home() {
     return (
         <>
-            <h2>home</h2>
+         <main>
+            <S.Container>
+                <h2>Bem vindos!</h2>
+                <p>Harry Potter FS</p>
+            </S.Container>
+         </main>
         </>
     );
 }
